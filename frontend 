@@ -1,3 +1,13 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+function App() {
+  return (
+    <div style={{ fontFamily: "Inter, sans-serif", padding: "20px" }}>
+      <h1>AI-First CRM HCP Module</h1>
+      <p>Welcome to the Log Interaction Screen.</p>
+
+      <button>Structured Form</button>
+      <button style={{ marginLeft: "10px" }}>AI Chat</button>
+    </div>
+  );
+}
+
+export default App;
